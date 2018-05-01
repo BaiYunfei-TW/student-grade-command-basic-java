@@ -6,10 +6,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-
-import static org.mockito.Mockito.mock;
 import static org.fest.assertions.api.Assertions.*;
-import static org.mockito.Mockito.when;
 
 public class AskerTest {
     private ByteArrayOutputStream outContent = new ByteArrayOutputStream();

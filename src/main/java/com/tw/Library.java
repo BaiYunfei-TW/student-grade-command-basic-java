@@ -9,8 +9,8 @@ import java.util.Set;
 
 public class Library {
 
-    private String inputStudentFormate = "ï¼ˆæ ¼å¼ï¼šå§“å, å­¦å·, å­¦ç§‘: æˆç»©, ...ï¼‰";
-    private String generateFormate = "ï¼ˆæ ¼å¼ï¼š å­¦å·, å­¦å·,...ï¼‰";
+    private String inputStudentFormate = "£¨¸ñÊ½£ºĞÕÃû, Ñ§ºÅ, Ñ§¿Æ: ³É¼¨, ...£©";
+    private String generateFormate = "£¨¸ñÊ½£º Ñ§ºÅ, Ñ§ºÅ,...£©";
 
     private Set<Student> students = new LinkedHashSet<>();
 
@@ -47,7 +47,7 @@ public class Library {
             sum += stu.getTotal();
             studentSet.add(stu);
         }
-        //æ±‚ä¸­ä½æ•°
+        //ÇóÖĞÎ»Êı
         Double[] gradeList = new Double[studentSet.size()];
         int i = 0;
         for (Student stu : studentSet) {
@@ -56,8 +56,8 @@ public class Library {
         Arrays.sort(gradeList);
         double mid = gradeList.length % 2 == 1 ? gradeList[gradeList.length/2] : (gradeList[gradeList.length/2 - 1] + gradeList[gradeList.length/2]) / 2;
         table += String.format("========================\n" +
-                               "å…¨ç­æ€»åˆ†å¹³å‡æ•°ï¼š%s\n" +
-                               "å…¨ç­æ€»åˆ†ä¸­ä½æ•°ï¼š%s\n",
+                               "È«°à×Ü·ÖÆ½¾ùÊı£º%s\n" +
+                               "È«°à×Ü·ÖÖĞÎ»Êı£º%s\n",
                                StringUtils.doubleToString(sum/idSet.size()),
                                StringUtils.doubleToString(mid));
         System.out.print(table);
@@ -96,7 +96,7 @@ public class Library {
     }
 
     /**
-     * å¤„ç†doubleç±»å‹æœ«å°¾çš„0
+     * ´¦ÀídoubleÀàĞÍÄ©Î²µÄ0
      *
      * @param s
      * @return
@@ -106,8 +106,8 @@ public class Library {
             return "";
         }
         if (s.indexOf(".") > 0) {
-            s = s.replaceAll("0+?$", "");//å»æ‰å¤šä½™çš„0
-            s = s.replaceAll("[.]$", "");//å¦‚æœ€åä¸€ä½æ˜¯.åˆ™å»æ‰
+            s = s.replaceAll("0+?$", "");//È¥µô¶àÓàµÄ0
+            s = s.replaceAll("[.]$", "");//Èç×îºóÒ»Î»ÊÇ.ÔòÈ¥µô
         }
         return s;
     }

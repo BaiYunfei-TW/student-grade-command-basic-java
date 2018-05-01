@@ -2,24 +2,24 @@ package com.tw;
 
 public class Constants {
 
-    public static final String MAIN_MENU = "1. æ·»åŠ å­¦ç”Ÿ\n" +
-                                           "2. ç”Ÿæˆæˆç»©å•\n" +
-                                           "3. é€€å‡º\n" +
-                                           "è¯·è¾“å…¥ä½ çš„é€‰æ‹©ï¼ˆ1ï½3ï¼‰ï¼š\n";
+    public static final String MAIN_MENU = "1. Ìí¼ÓÑ§Éú\n" +
+                                           "2. Éú³É³É¼¨µ¥\n" +
+                                           "3. ÍË³ö\n" +
+                                           "ÇëÊäÈëÄãµÄÑ¡Ôñ£¨1¡«3£©£º\n";
 
-    private static final String STUDENT_INPUT_FORMAT = "ï¼ˆæ ¼å¼ï¼šå§“å, å­¦å·, å­¦ç§‘: æˆç»©, ...ï¼‰";
-    private static final String QUERY_GRADE_LIST_FORMAT = "ï¼ˆæ ¼å¼ï¼š å­¦å·, å­¦å·,...ï¼‰";
+    private static final String STUDENT_INPUT_FORMAT = "£¨¸ñÊ½£ºĞÕÃû, Ñ§ºÅ, Ñ§¿Æ: ³É¼¨, ...£©";
+    private static final String QUERY_GRADE_LIST_FORMAT = "£¨¸ñÊ½£º Ñ§ºÅ, Ñ§ºÅ,...£©";
 
-    public static final String STDDENT_INPUT_MESSAGE = String.format("è¯·è¾“å…¥å­¦ç”Ÿä¿¡æ¯%sï¼ŒæŒ‰å›è½¦æäº¤ï¼š\n", STUDENT_INPUT_FORMAT);
-    public static final String STUDENT_INPUT_FORMAT_ERROR = String.format("è¯·æŒ‰æ­£ç¡®çš„æ ¼å¼è¾“å…¥%sï¼š\n", STUDENT_INPUT_FORMAT);
+    public static final String STDDENT_INPUT_MESSAGE = String.format("ÇëÊäÈëÑ§ÉúĞÅÏ¢%s£¬°´»Ø³µÌá½»£º\n", STUDENT_INPUT_FORMAT);
+    public static final String STUDENT_INPUT_FORMAT_ERROR = String.format("Çë°´ÕıÈ·µÄ¸ñÊ½ÊäÈë%s£º\n", STUDENT_INPUT_FORMAT);
 
-    public static final String STUDENT_INPUT_SUCCESS_MESSAGE = "å­¦ç”Ÿ%sçš„æˆç»©è¢«æ·»åŠ ";
+    public static final String STUDENT_INPUT_SUCCESS_MESSAGE = "Ñ§Éú%sµÄ³É¼¨±»Ìí¼Ó";
 
-    public static final String QUERY_GRADE_LIST_MESSAGE = String.format("è¯·è¾“å…¥è¦æ‰“å°çš„å­¦ç”Ÿçš„å­¦å·%sï¼ŒæŒ‰å›è½¦æäº¤ï¼š\n", QUERY_GRADE_LIST_FORMAT);
-    public static final String QUERY_GRADE_LIST_FORMAT_ERROR = String.format("è¯·æŒ‰æ­£ç¡®çš„æ ¼å¼è¾“å…¥è¦æ‰“å°çš„å­¦ç”Ÿçš„å­¦å·%sï¼ŒæŒ‰å›è½¦æäº¤ï¼š\n", QUERY_GRADE_LIST_FORMAT);
+    public static final String QUERY_GRADE_LIST_MESSAGE = String.format("ÇëÊäÈëÒª´òÓ¡µÄÑ§ÉúµÄÑ§ºÅ%s£¬°´»Ø³µÌá½»£º\n", QUERY_GRADE_LIST_FORMAT);
+    public static final String QUERY_GRADE_LIST_FORMAT_ERROR = String.format("Çë°´ÕıÈ·µÄ¸ñÊ½ÊäÈëÒª´òÓ¡µÄÑ§ÉúµÄÑ§ºÅ%s£¬°´»Ø³µÌá½»£º\n", QUERY_GRADE_LIST_FORMAT);
 
-    public static final String GRADE_LIST_HEADER = "æˆç»©å•\n" +
-            "å§“å|æ•°å­¦|è¯­æ–‡|è‹±è¯­|ç¼–ç¨‹|å¹³å‡åˆ†|æ€»åˆ†\n" +
+    public static final String GRADE_LIST_HEADER = "³É¼¨µ¥\n" +
+            "ĞÕÃû|ÊıÑ§|ÓïÎÄ|Ó¢Óï|±à³Ì|Æ½¾ù·Ö|×Ü·Ö\n" +
             "========================\n";
 
 }

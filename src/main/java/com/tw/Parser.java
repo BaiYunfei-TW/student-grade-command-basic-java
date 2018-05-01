@@ -19,16 +19,16 @@ public class Parser {
                 return null;
             }
             switch (item[0]) {
-                case "æ•°å­¦":
+                case "ÊıÑ§":
                     student.setMath(grade);
                     break;
-                case "è¯­æ–‡":
+                case "ÓïÎÄ":
                     student.setChinese(grade);
                     break;
-                case "è‹±è¯­":
+                case "Ó¢Óï":
                     student.setEnglish(grade);
                     break;
-                case "ç¼–ç¨‹":
+                case "±à³Ì":
                     student.setProgramming(grade);
                     break;
                 default:

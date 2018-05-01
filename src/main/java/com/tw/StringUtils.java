@@ -7,7 +7,7 @@ public class StringUtils {
     }
 
     /**
-     * å¤„ç†doubleç±»å‹æœ«å°¾çš„0
+     * ´¦ÀídoubleÀàĞÍÄ©Î²µÄ0
      *
      * @param s
      * @return
@@ -17,8 +17,8 @@ public class StringUtils {
             return "";
         }
         if (s.indexOf(".") > 0) {
-            s = s.replaceAll("0+?$", "");//å»æ‰å¤šä½™çš„0
-            s = s.replaceAll("[.]$", "");//å¦‚æœ€åä¸€ä½æ˜¯.åˆ™å»æ‰
+            s = s.replaceAll("0+?$", "");//È¥µô¶àÓàµÄ0
+            s = s.replaceAll("[.]$", "");//Èç×îºóÒ»Î»ÊÇ.ÔòÈ¥µô
         }
         return s;
     }
